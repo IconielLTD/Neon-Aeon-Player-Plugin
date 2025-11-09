@@ -65,7 +65,7 @@ I'm a solo developer working on this project in my free time without backing, so
 
 **Software** included in this repo is subject to the **MIT License** - see LICENSE file for details
 
-**Video, audio, and image assets** intended for demonstration use are subject to the **Artlist Copyright Licence** and should not be used for your own projects. See LICENSE file for details
+**Video, audio, and image assets** intended for demonstration use are subject to the **Artlist Pro Licence** and should not be used for your own projects. See LICENSE file for details
 
 ## Get Creating!
 
