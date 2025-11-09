@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwmid8ste176e"]
+
+[ext_resource type="Script" uid="uid://blfuxglat0hta" path="res://addons/neon_aeon/scripts/NeonAeonPlayer.gd" id="1_0vl6u"]
+
+[node name="Test" type="Node2D"]
+
+[node name="NeonAeonPlayer" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_0vl6u")
+project_file = "res://happy_hills.json"
+metadata/_custom_type_script = "uid://blfuxglat0hta"

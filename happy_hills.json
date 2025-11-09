@@ -1,0 +1,212 @@
+{
+  "name": "Happy Hills Project",
+  "acts": [
+	{
+	  "id": "act_0",
+	  "name": "Act 1",
+	  "scenes": [
+		{
+		  "id": "act_0_scene_0",
+		  "name": "Scene 1",
+		  "audioTracks": [
+			{
+			  "id": "track_0",
+			  "label": "BGM",
+			  "path": "E:/NeonAeon/neon-aeon-plugin/audio/romeo_in_flight.ogg"
+			}
+		  ],
+		  "nodes": [
+			{
+			  "id": "act_0_scene_0_node_0",
+			  "type": "video",
+			  "name": "Node 1",
+			  "choices": [],
+			  "videoPath": "E:/NeonAeon/neon-aeon-plugin/video/Intro_video.ogv",
+			  "dialogueText": ""
+			}
+		  ]
+		},
+		{
+		  "id": "act_0_scene_1",
+		  "name": "Scene 2",
+		  "audioTracks": [
+			{
+			  "id": "track_0",
+			  "label": "Dialogue",
+			  "path": "E:/NeonAeon/neon-aeon-plugin/audio/HH_Welcome.ogg"
+			}
+		  ],
+		  "nodes": [
+			{
+			  "id": "act_0_scene_1_node_0",
+			  "type": "dialogue",
+			  "name": "Node 1",
+			  "choices": [
+				{
+				  "id": "choice_0",
+				  "button": "A",
+				  "text": "Start",
+				  "targetNodeId": "act_0_scene_2_node_0"
+				}
+			  ],
+			  "imagePath": "E:/NeonAeon/neon-aeon-plugin/image/20251101_2004_Happy Hills Animation_simple_compose_01k90gahnye0nsn0hghfjnefrv.png",
+			  "dialogueText": "Welcome to Happy Hills!"
+			}
+		  ]
+		},
+		{
+		  "id": "act_0_scene_2",
+		  "name": "Scene 3",
+		  "audioTracks": [
+			{
+			  "id": "track_0",
+			  "label": "Dialogue",
+			  "path": "E:/NeonAeon/neon-aeon-plugin/audio/HH_WhatToday.ogg"
+			}
+		  ],
+		  "nodes": [
+			{
+			  "id": "act_0_scene_2_node_0",
+			  "type": "video",
+			  "name": "Node 1",
+			  "choices": [
+				{
+				  "id": "choice_0",
+				  "button": "X",
+				  "text": "Have a tea party?",
+				  "targetNodeId": "act_0_scene_3_node_0"
+				},
+				{
+				  "id": "choice_1",
+				  "button": "B",
+				  "text": "Play hide and seek?",
+				  "targetNodeId": "act_0_scene_4_node_0"
+				}
+			  ],
+			  "videoPath": "E:/NeonAeon/neon-aeon-plugin/video/Two_hippos.ogv",
+			  "dialogueText": "The hippos are waiting to find out what you would like to do today. What will you choose?"
+			}
+		  ]
+		},
+		{
+		  "id": "act_0_scene_3",
+		  "name": "Scene 4",
+		  "audioTracks": [
+			{
+			  "id": "track_0",
+			  "label": "Dialogue",
+			  "path": "E:/NeonAeon/neon-aeon-plugin/audio/HH_Teaparty.ogg"
+			}
+		  ],
+		  "nodes": [
+			{
+			  "id": "act_0_scene_3_node_0",
+			  "type": "dialogue",
+			  "name": "Node 1",
+			  "choices": [
+				{
+				  "id": "choice_0",
+				  "button": "A",
+				  "text": "End",
+				  "targetNodeId": "act_0_scene_6_node_0"
+				}
+			  ],
+			  "imagePath": "E:/NeonAeon/neon-aeon-plugin/image/20251101_2115_Hippo Tea Party_simple_compose_01k90m8y0ce4artqat0ym3h1rt.png",
+			  "dialogueText": "The hippos are having a lovely tea party now. Well done!"
+			}
+		  ]
+		},
+		{
+		  "id": "act_0_scene_4",
+		  "name": "Scene 5",
+		  "audioTracks": [
+			{
+			  "id": "track_0",
+			  "label": "Dialogue",
+			  "path": "E:/NeonAeon/neon-aeon-plugin/audio/HH_Hiding.ogg"
+			}
+		  ],
+		  "nodes": [
+			{
+			  "id": "act_0_scene_4_node_0",
+			  "type": "dialogue",
+			  "name": "Node 1",
+			  "choices": [
+				{
+				  "id": "choice_0",
+				  "button": "X",
+				  "text": "Behind the trees?",
+				  "targetNodeId": "act_0_scene_5_node_0"
+				},
+				{
+				  "id": "choice_1",
+				  "button": "B",
+				  "text": "Behind the rocks?",
+				  "targetNodeId": "act_0_scene_6_node_0"
+				}
+			  ],
+			  "imagePath": "E:/NeonAeon/neon-aeon-plugin/image/20251101_2123_Hippo Hide and Seek_simple_compose_01k90mv21afyavg9xhe9rb8q5b.png",
+			  "dialogueText": "Hippo is hiding, can you find him?"
+			}
+		  ]
+		},
+		{
+		  "id": "act_0_scene_5",
+		  "name": "Scene 6",
+		  "audioTracks": [
+			{
+			  "id": "track_0",
+			  "label": "Dialogue",
+			  "path": "E:/NeonAeon/neon-aeon-plugin/audio/HH_Whoopsie.ogg"
+			}
+		  ],
+		  "nodes": [
+			{
+			  "id": "act_0_scene_5_node_0",
+			  "type": "dialogue",
+			  "name": "Node 1",
+			  "choices": [
+				{
+				  "id": "choice_0",
+				  "button": "X",
+				  "text": "Try again",
+				  "targetNodeId": "act_0_scene_4_node_0"
+				}
+			  ],
+			  "imagePath": "E:/NeonAeon/neon-aeon-plugin/image/20251101_2148_Summer Inspiration_simple_compose_01k90p8843f96bzy76swcdvzvv.png",
+			  "dialogueText": "Whoopsie daisy! That wasn't the right answer. Try again!"
+			}
+		  ]
+		},
+		{
+		  "id": "act_0_scene_6",
+		  "name": "Scene 7",
+		  "audioTracks": [
+			{
+			  "id": "track_0",
+			  "label": "Dialogue",
+			  "path": "E:/NeonAeon/neon-aeon-plugin/audio/HH_Finish.ogg"
+			}
+		  ],
+		  "nodes": [
+			{
+			  "id": "act_0_scene_6_node_0",
+			  "type": "dialogue",
+			  "name": "Node 1",
+			  "choices": [
+				{
+				  "id": "choice_0",
+				  "button": "X",
+				  "text": "Start again",
+				  "targetNodeId": "act_0_scene_1_node_0"
+				}
+			  ],
+			  "imagePath": "E:/NeonAeon/neon-aeon-plugin/image/20251101_2147_Happy Hills Finale_simple_compose_01k90p5tfhfbeavtvyyxmr9rsp.png",
+			  "dialogueText": "Well done you have finished your story. Bye bye!"
+			}
+		  ]
+		}
+	  ]
+	}
+  ]
+}

@@ -1,0 +1,37 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+.godot/
+.import/
+
+# Godot 3 (if you're supporting it)
+.import/
+*.import
+
+# Export presets
+export_presets.cfg
+
+# Mono/C# (if you're using it)
+.mono/
+data_*/
+mono_crash.*.json
+
+# Build results
+builds/
+*.exe
+*.pck
+*.dmg
+*.zip
+*.apk
+*.ipa
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
